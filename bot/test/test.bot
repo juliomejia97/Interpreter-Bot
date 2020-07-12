@@ -1,0 +1,18 @@
+function diagonal(let length, let abajo)
+begin
+let counter = 0;
+while (counter < length)
+begin
+down abajo;
+right 1;
+counter = counter + 1;
+end;
+writeln "diagonal terminada";
+end;
+let a;
+read a;
+if (a == "N" and (2+3*5 >= 6) or (60-6/2 <> 8))
+begin
+diagonal(5,1);
+end;
+write a;
